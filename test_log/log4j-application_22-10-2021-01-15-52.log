@@ -1,0 +1,5 @@
+2021-10-22 13:16:26,190  INFO [main] ElocalStore_Runner:20 -  Navigated to the expected page
+ 2021-10-22 13:16:28,959  INFO [main] ElocalStore_Runner:20 - logging Page navigated
+ 2021-10-22 13:17:40,065  INFO [main] ElocalStore_Runner:20 - The Values are accesed from the Excel sheet
+ 2021-10-22 13:17:45,105  INFO [main] ElocalStore_Runner:20 - Successfully added to the cart
+ 

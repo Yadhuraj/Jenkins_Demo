@@ -1,0 +1,4 @@
+2021-10-22 10:33:05,946  INFO [main] ElocalStore_Runner:20 -  Navigated to the expected page
+ 2021-10-22 10:33:09,630  INFO [main] ElocalStore_Runner:20 - logging Page navigated
+ 2021-10-22 10:33:43,271 ERROR [main] ElocalStore_Runner:28 - The Values accesess from the Excel sheet is interrupted
+ 

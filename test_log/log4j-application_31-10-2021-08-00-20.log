@@ -1,0 +1,5 @@
+2021-10-31 20:00:48,499  INFO [main] ElocalStore_Runner:20 -  Navigated to the expected page
+ 2021-10-31 20:00:51,120  INFO [main] ElocalStore_Runner:20 - logging Page navigated
+ 2021-10-31 20:01:40,272 ERROR [main] ElocalStore_Runner:28 - The Values accesess from the Excel sheet is interrupted
+ 2021-10-31 20:01:47,344  INFO [main] ElocalStore_Runner:20 - Successfully added to the cart
+ 
