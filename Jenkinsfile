@@ -1,19 +1,35 @@
 pipeline {
     agent any
-
+	
     stages {
-        stage('use passwords') {
+        stage('Checkout') {
             steps {
-              echo "Hello 1"
+              git 'https://github.com/Yadhuraj/HomeCentre.git'
             }
         }
         
-        stage('two')
+        stage('Build')
         {
             steps {
-                echo "Hello 2"
+                bat 'mvn clean compile'
             
                 }
         }
+		
+		stage('Test'){
+		steps{
+			bat 'mvn test'
+			junit '**/test-output/junitreports/TEST-*.xml'
+		}
+		}
+		
+		stage('Package')
+		{
+		steps{
+		bat 'mvn package'
+		}
+		
+		}
+		
 }
 }
