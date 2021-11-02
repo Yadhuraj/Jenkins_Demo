@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-              git 'https://github.com/Yadhuraj/HomeCentre.git'
+              git 'https://github.com/Yadhuraj/eLocalStore.git'
             }
         }
         
